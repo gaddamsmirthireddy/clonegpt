@@ -35,3 +35,27 @@ This project is a **Streamlit-based chatbot** that integrates with the **Groq AP
    git clone https://github.com/your-repo/chat-bot.git
    cd chat-bot
 
+2. **Install Required Libraries**  
+   Install all dependencies from the `requirements.txt` file:  
+
+   ```bash
+   pip install -r requirements.txt
+3. **Configure API Key**
+   Store your API key securely in Streamlit's secrets manager:
+
+   Create a .streamlit/secrets.toml file in your project directory:
+   [general]
+   API_KEY = "your_groq_api_key"
+4. **Run the Application**
+   Start the Streamlit app:
+   ```bash
+   streamlit run app.py
+5. **Access the Chatbot**
+   Open the app in your browser at http://localhost:8501.
+
+
+
+
+
+
+
